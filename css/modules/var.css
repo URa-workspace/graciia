@@ -1,0 +1,11 @@
+:root {
+  --font-main: "Nunito", sans-serif;
+  --font-second: "Ubuntu", sans-serif;
+  --clr-bg: #181818;
+  --clr-bg-gray: #2d2d2d;
+  --clr-white: #ffffff;
+  --clr-red: #881010;
+  --clr-gray: #282828;
+  --clr-green-y: #3E5828;
+  --brd-radius: 2.6rem;
+}

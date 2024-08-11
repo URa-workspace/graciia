@@ -1,0 +1,41 @@
+.breadcrumbs {
+  margin-bottom: 2.6rem;
+}
+
+.breadcrumbs ul {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.breadcrumbs ul li {
+  padding: 0 1rem 0 0;
+  position: relative;
+  display: inline-block;
+}
+
+.breadcrumbs ul li:not(:last-child)::after {
+  content: "/";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(-4px, -50%);
+      -ms-transform: translate(-4px, -50%);
+          transform: translate(-4px, -50%);
+}
+
+.breadcrumbs ul li a {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #c7c7c7;
+}
+
+@media screen and (max-width: 475px) {
+  .breadcrumbs ul li a {
+    font-size: 1.2rem;
+  }
+}
